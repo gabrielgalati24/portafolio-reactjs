@@ -4,9 +4,9 @@
   background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.landing-grid {
+.landing-grid { /*
   background: #833ab4;  /* fallback for old browsers */
-  background: rgb(131,58,180);
+ /* background: rgb(131,58,180);
   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(157,23,23,1) 50%, rgba(252,176,69,1) 100%);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
