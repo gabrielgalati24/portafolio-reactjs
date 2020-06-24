@@ -56,7 +56,7 @@ class Landing extends Component {
       
       <div style={{width: '100%', margin: 'auto'}}>
         <Grid  style={ { background: this.state.color} }  className="landing-grid">
-          <Cell col={12}>
+          <div className="col-md-12">
             <img
               src="https://media1.tenor.com/images/57c3b9b9018b3a072aecdbed0c20e662/tenor.gif"
               alt="avatar"
@@ -64,7 +64,7 @@ class Landing extends Component {
               />
 
             <div className="banner-text">
-              <h1>Full Stack Web Developer</h1>
+              <h1 className="col-md-12">Full Stack Web Developer</h1>
 
             <hr/>
 
@@ -96,7 +96,7 @@ class Landing extends Component {
 
         </div>
             </div>
-          </Cell>
+          </div>
         </Grid>
       </div>
     )
